@@ -1,0 +1,31 @@
+@charset "UTF-8";
+body{
+    background-color: rgb(35, 35, 35);
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(228, 224, 224);
+}
+
+h1{
+    font-size: 2em;
+    text-align: center;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+p{
+    text-align: center;
+    font-size: 1.25em;
+}
+
+a{
+    color: #ccd3da;
+    text-decoration: none;
+}
+
+.centro {
+    text-align: center;
+}
